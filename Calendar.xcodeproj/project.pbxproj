@@ -15,6 +15,18 @@
 		A477836120EA00520079FA6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A477836020EA00520079FA6F /* main.m */; };
 		A477836B20EA00530079FA6F /* CalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A477836A20EA00530079FA6F /* CalendarTests.m */; };
 		A477837620EA00530079FA6F /* CalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A477837520EA00530079FA6F /* CalendarUITests.m */; };
+		A477838620EA06250079FA6F /* CalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A477838520EA06250079FA6F /* CalendarController.m */; };
+		A477838D20EA069D0079FA6F /* CalendarMonthModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A477838920EA069D0079FA6F /* CalendarMonthModel.m */; };
+		A477838E20EA069D0079FA6F /* CalendarDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A477838A20EA069D0079FA6F /* CalendarDayModel.m */; };
+		A477839B20EA06D80079FA6F /* CalendarWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = A477839020EA06D60079FA6F /* CalendarWeekView.m */; };
+		A477839C20EA06D80079FA6F /* MCalenderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A477839120EA06D60079FA6F /* MCalenderCell.m */; };
+		A477839D20EA06D80079FA6F /* CalendarHearder.m in Sources */ = {isa = PBXBuildFile; fileRef = A477839320EA06D70079FA6F /* CalendarHearder.m */; };
+		A477839E20EA06D80079FA6F /* CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A477839620EA06D80079FA6F /* CalendarView.m */; };
+		A47783A020EA06D80079FA6F /* RepaymentHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A477839A20EA06D80079FA6F /* RepaymentHeader.m */; };
+		A47783A420EA07A10079FA6F /* NSDate+Calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = A47783A320EA07A10079FA6F /* NSDate+Calendar.m */; };
+		A47783AA20EA112E0079FA6F /* TimeDisplayTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A47783A920EA112E0079FA6F /* TimeDisplayTool.m */; };
+		A47783AF20EA19840079FA6F /* UILabel+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = A47783AD20EA19840079FA6F /* UILabel+Custom.m */; };
+		E84B511245601FB27F331849 /* libPods-Calendar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13664CF26C9EB1C35E34749B /* libPods-Calendar.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13664CF26C9EB1C35E34749B /* libPods-Calendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Calendar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6BBFECCBF13A211208D2E8 /* Pods-Calendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Calendar/Pods-Calendar.debug.xcconfig"; sourceTree = "<group>"; };
+		90724EEF7D561BD0A45CAE3A /* Pods-Calendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-Calendar/Pods-Calendar.release.xcconfig"; sourceTree = "<group>"; };
 		A477834E20EA00520079FA6F /* Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A477835120EA00520079FA6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A477835220EA00520079FA6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +66,30 @@
 		A477837120EA00530079FA6F /* CalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A477837520EA00530079FA6F /* CalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarUITests.m; sourceTree = "<group>"; };
 		A477837720EA00530079FA6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A477838420EA06250079FA6F /* CalendarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarController.h; sourceTree = "<group>"; };
+		A477838520EA06250079FA6F /* CalendarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarController.m; sourceTree = "<group>"; };
+		A477838920EA069D0079FA6F /* CalendarMonthModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarMonthModel.m; sourceTree = "<group>"; };
+		A477838A20EA069D0079FA6F /* CalendarDayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDayModel.m; sourceTree = "<group>"; };
+		A477838B20EA069D0079FA6F /* CalendarDayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDayModel.h; sourceTree = "<group>"; };
+		A477838C20EA069D0079FA6F /* CalendarMonthModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarMonthModel.h; sourceTree = "<group>"; };
+		A477838F20EA06D60079FA6F /* CalendarWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarWeekView.h; sourceTree = "<group>"; };
+		A477839020EA06D60079FA6F /* CalendarWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarWeekView.m; sourceTree = "<group>"; };
+		A477839120EA06D60079FA6F /* MCalenderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCalenderCell.m; sourceTree = "<group>"; };
+		A477839220EA06D70079FA6F /* RepaymentHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepaymentHeader.h; sourceTree = "<group>"; };
+		A477839320EA06D70079FA6F /* CalendarHearder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarHearder.m; sourceTree = "<group>"; };
+		A477839420EA06D70079FA6F /* CalendarHearder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarHearder.h; sourceTree = "<group>"; };
+		A477839520EA06D70079FA6F /* CalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarView.h; sourceTree = "<group>"; };
+		A477839620EA06D80079FA6F /* CalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarView.m; sourceTree = "<group>"; };
+		A477839720EA06D80079FA6F /* MCalenderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCalenderCell.h; sourceTree = "<group>"; };
+		A477839A20EA06D80079FA6F /* RepaymentHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepaymentHeader.m; sourceTree = "<group>"; };
+		A47783A220EA07A10079FA6F /* NSDate+Calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Calendar.h"; sourceTree = "<group>"; };
+		A47783A320EA07A10079FA6F /* NSDate+Calendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Calendar.m"; sourceTree = "<group>"; };
+		A47783A820EA112E0079FA6F /* TimeDisplayTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeDisplayTool.h; sourceTree = "<group>"; };
+		A47783A920EA112E0079FA6F /* TimeDisplayTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeDisplayTool.m; sourceTree = "<group>"; };
+		A47783AB20EA15810079FA6F /* calendar.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calendar.pch; sourceTree = "<group>"; };
+		A47783AC20EA15E90079FA6F /* styleDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = styleDefine.h; sourceTree = "<group>"; };
+		A47783AD20EA19840079FA6F /* UILabel+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Custom.m"; sourceTree = "<group>"; };
+		A47783AE20EA19840079FA6F /* UILabel+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Custom.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E84B511245601FB27F331849 /* libPods-Calendar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +118,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B601655B4A66591DEA6E165 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C6BBFECCBF13A211208D2E8 /* Pods-Calendar.debug.xcconfig */,
+				90724EEF7D561BD0A45CAE3A /* Pods-Calendar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A477834520EA00520079FA6F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +134,8 @@
 				A477836920EA00530079FA6F /* CalendarTests */,
 				A477837420EA00530079FA6F /* CalendarUITests */,
 				A477834F20EA00520079FA6F /* Products */,
+				6B601655B4A66591DEA6E165 /* Pods */,
+				F79B9527D55A41B7931622D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +152,15 @@
 		A477835020EA00520079FA6F /* Calendar */ = {
 			isa = PBXGroup;
 			children = (
+				A477838320EA06250079FA6F /* 回款日历 */,
 				A477835120EA00520079FA6F /* AppDelegate.h */,
 				A477835220EA00520079FA6F /* AppDelegate.m */,
 				A477835420EA00520079FA6F /* ViewController.h */,
 				A477835520EA00520079FA6F /* ViewController.m */,
 				A477835720EA00520079FA6F /* Main.storyboard */,
 				A477835A20EA00520079FA6F /* Assets.xcassets */,
+				A47783AB20EA15810079FA6F /* calendar.pch */,
+				A47783AC20EA15E90079FA6F /* styleDefine.h */,
 				A477835C20EA00520079FA6F /* LaunchScreen.storyboard */,
 				A477835F20EA00520079FA6F /* Info.plist */,
 				A477836020EA00520079FA6F /* main.m */,
@@ -132,6 +186,67 @@
 			path = CalendarUITests;
 			sourceTree = "<group>";
 		};
+		A477838320EA06250079FA6F /* 回款日历 */ = {
+			isa = PBXGroup;
+			children = (
+				A477838420EA06250079FA6F /* CalendarController.h */,
+				A477838520EA06250079FA6F /* CalendarController.m */,
+				A47783A120EA07760079FA6F /* Category */,
+				A477838820EA06550079FA6F /* Model */,
+				A477838720EA06550079FA6F /* View */,
+			);
+			path = "回款日历";
+			sourceTree = "<group>";
+		};
+		A477838720EA06550079FA6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A477839220EA06D70079FA6F /* RepaymentHeader.h */,
+				A477839A20EA06D80079FA6F /* RepaymentHeader.m */,
+				A477839420EA06D70079FA6F /* CalendarHearder.h */,
+				A477839320EA06D70079FA6F /* CalendarHearder.m */,
+				A477839520EA06D70079FA6F /* CalendarView.h */,
+				A477839620EA06D80079FA6F /* CalendarView.m */,
+				A477838F20EA06D60079FA6F /* CalendarWeekView.h */,
+				A477839020EA06D60079FA6F /* CalendarWeekView.m */,
+				A477839720EA06D80079FA6F /* MCalenderCell.h */,
+				A477839120EA06D60079FA6F /* MCalenderCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A477838820EA06550079FA6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A477838B20EA069D0079FA6F /* CalendarDayModel.h */,
+				A477838A20EA069D0079FA6F /* CalendarDayModel.m */,
+				A477838C20EA069D0079FA6F /* CalendarMonthModel.h */,
+				A477838920EA069D0079FA6F /* CalendarMonthModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A47783A120EA07760079FA6F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A47783AE20EA19840079FA6F /* UILabel+Custom.h */,
+				A47783AD20EA19840079FA6F /* UILabel+Custom.m */,
+				A47783A820EA112E0079FA6F /* TimeDisplayTool.h */,
+				A47783A920EA112E0079FA6F /* TimeDisplayTool.m */,
+				A47783A220EA07A10079FA6F /* NSDate+Calendar.h */,
+				A47783A320EA07A10079FA6F /* NSDate+Calendar.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F79B9527D55A41B7931622D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13664CF26C9EB1C35E34749B /* libPods-Calendar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A477837A20EA00530079FA6F /* Build configuration list for PBXNativeTarget "Calendar" */;
 			buildPhases = (
+				AC96EDE8B6C67FC023E1BF4F /* [CP] Check Pods Manifest.lock */,
 				A477834A20EA00520079FA6F /* Sources */,
 				A477834B20EA00520079FA6F /* Frameworks */,
 				A477834C20EA00520079FA6F /* Resources */,
+				85BFCFCA70A4F3A749A66A43 /* [CP] Embed Pods Frameworks */,
+				FDCC4E3F308651B61971EC0D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,14 +378,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		85BFCFCA70A4F3A749A66A43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Calendar/Pods-Calendar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC96EDE8B6C67FC023E1BF4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Calendar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDCC4E3F308651B61971EC0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Calendar/Pods-Calendar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A477834A20EA00520079FA6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A477835620EA00520079FA6F /* ViewController.m in Sources */,
+				A477838620EA06250079FA6F /* CalendarController.m in Sources */,
+				A47783A020EA06D80079FA6F /* RepaymentHeader.m in Sources */,
+				A477838E20EA069D0079FA6F /* CalendarDayModel.m in Sources */,
+				A47783AA20EA112E0079FA6F /* TimeDisplayTool.m in Sources */,
+				A477838D20EA069D0079FA6F /* CalendarMonthModel.m in Sources */,
+				A477839E20EA06D80079FA6F /* CalendarView.m in Sources */,
+				A477839D20EA06D80079FA6F /* CalendarHearder.m in Sources */,
 				A477836120EA00520079FA6F /* main.m in Sources */,
+				A477839C20EA06D80079FA6F /* MCalenderCell.m in Sources */,
+				A477839B20EA06D80079FA6F /* CalendarWeekView.m in Sources */,
+				A47783A420EA07A10079FA6F /* NSDate+Calendar.m in Sources */,
 				A477835320EA00520079FA6F /* AppDelegate.m in Sources */,
+				A47783AF20EA19840079FA6F /* UILabel+Custom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,9 +608,12 @@
 		};
 		A477837B20EA00530079FA6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C6BBFECCBF13A211208D2E8 /* Pods-Calendar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = /Users/sun/Desktop/Calendar/Calendar/calendar.pch;
 				INFOPLIST_FILE = Calendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sun-happy.Calendar";
@@ -441,9 +624,12 @@
 		};
 		A477837C20EA00530079FA6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90724EEF7D561BD0A45CAE3A /* Pods-Calendar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = /Users/sun/Desktop/Calendar/Calendar/calendar.pch;
 				INFOPLIST_FILE = Calendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sun-happy.Calendar";
