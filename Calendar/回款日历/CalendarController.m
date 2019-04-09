@@ -111,6 +111,10 @@
     
     NSArray *array = [self getMonthRepayment];
     self.header.calendar.signArray = array;
+    
+    //self.header.calendar.signArray
+    
+    
 }
 
 - (void) currentDayRepayment{
